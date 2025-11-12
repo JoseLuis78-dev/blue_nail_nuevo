@@ -202,8 +202,8 @@ h2 {
 
 .contenedor-precios {
     margin: 0 auto;
-    max-width: 1200px;
-    padding: 40px 20px;
+    max-width: 600px;
+    padding: 15px 
 }
 
 form {
@@ -245,12 +245,12 @@ textarea {
     min-height: 100px;
     }    
 
-.checkbox {
+.checkbox { 
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
-    }
+}
     
 button {
     display: block;
@@ -284,6 +284,11 @@ button:hover {
 
     /***Modificación del pie de las páginas***/
 .footer {
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.p-footer {
     text-align: center;
 }

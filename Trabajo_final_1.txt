@@ -1,0 +1,13 @@
+Este es el trabajo obligatorio del tema 3 de José Luis Ruiz Martín para Master_D.
+
+He creado una página Web estudio de uñas, donde he cambiado los nombres de las páginas que se pedia en la Tarea
+por otros más acordes a la página. Tenemos un:
+index.html: pagina principal
+servicios.html: página con nuestros servicios
+precios.html: página de contacto para citas y/o consulta de precios
+contacto.html: página de cdatos de la empresa, teléfono y ubicación.
+style.css: página de estilos CSS creada para los estilos de las cuatro páginas.
+
+He validado todo el archivo con W3C Validator y comentado e indentado todo el archivo.
+He creado una repositorio en Git Hub y creado una página Web, donde se aloja mi trabajo. La dirección es:
+https://joseluis78-dev.github.io/blue_nail_nuevo/
