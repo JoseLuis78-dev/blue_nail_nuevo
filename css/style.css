@@ -172,7 +172,10 @@ h2 {
 /***Modificación de la página Servicios,donde contiene las imágenes de la página de nuestros servicios, donde creamos 2 filas para estos***/
 
 .contenedor-servicios {
-    margin: 200px 20px 0 20px ;
+    margin: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
     max-width: 1200px;
     padding: 40px 20px;
 }
