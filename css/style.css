@@ -43,6 +43,8 @@ header {
 
 .img_logo {
     margin-top: 5px;
+    width: 170px;
+    height: 170px;
 }
 
 .menu_lateral {
@@ -94,37 +96,43 @@ p {
 /***Modificación del comportamiento de los encabezados h2***/
 
 h2 {
-    margin-top: 260px;
+    margin-top: 26px;
     font-size: 2rem;
 }
 
 /***Modoficación de la página index que contiene la página principal de nuestra web***/
 
-.contenedor{
+.main {
     position: relative;
     flex-direction: column;
     width: 100%;
-    height: 1800px;
+    height: 0 auto;
     background-color: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2) ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     margin: 5px;
     padding: 15px;
     background-size: contain;
-
 }
 
-.article1 {
-    margin: 20px;
+.imagen_principal {
+    width: 640px;
+    height: 1100px;
+}
+
+.inicio {
+    margin: 260px 20px 0 20px ;
 }
 
 
-.article2 {
+.contenedor_inicio {
     display: flex;
     flex-direction: row;
     margin: 30px 20px 20px 20px;
     padding-top: 20px;
 }
 .img_der {
+    width: 500px;
+    height: 400px;
     margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
@@ -153,7 +161,7 @@ h2 {
     text-align: justify;
 }
 
-.article3 {
+.redes_sociales {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,12 +172,14 @@ h2 {
 /***Modificación de la página Servicios,donde contiene las imágenes de la página de nuestros servicios, donde creamos 2 filas para estos***/
 
 .contenedor-servicios {
-    margin: 0 auto ;
+    margin: 200px 20px 0 20px ;
     max-width: 1200px;
     padding: 40px 20px;
 }
 
 .grid-galeria {
+    margin: 0 auto;
+    max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -177,10 +187,10 @@ h2 {
 
 .item {
     margin-top: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0.637);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     gap: 15px;
@@ -200,19 +210,27 @@ h2 {
 
 /***Modificación de la página precios, y el formulario***/
 
-.contenedor-precios {
-    margin: 0 auto;
-    max-width: 600px;
+.entrada-precios {
+    margin-top: 220px; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 500px;
     padding: 15px 
 }
 
+.formulario {
+    margin: 0 auto;
+}
+
 form {
+    max-height: 0 auto;
     max-width: 500px;
     margin: 0 auto;
-    background: #fff;
-    padding: 30px;
+    background: #ffffffb0;
+    padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
 
 label {
@@ -271,15 +289,44 @@ button:hover {
 
     /***Modificación de la página contacto***/
 
-    .contenedor-contacto {
-        margin: 0 auto;
+    .contenedor_contacto {
+
+        margin-top: 260px;
+        margin-left: auto;
+        margin-right: auto;
         max-width: 1200px;
+        text-align: center;
+        }
+
+
+
+    .direccion {
+        max-width: 1200px;
+        margin: auto;
         align-items: center;
         text-align: center;
     }
 
     .img_mapa {
-        align-items: center;
+        width: 1000px;
+        height: 600px;
+    }
+
+    /***Modificación de las imágenes de logos de RR.SS.***/
+
+    .logo_facebook {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo_instagram {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo_x {
+        width: 75px;
+        height: 75px;
     }
 
     /***Modificación del pie de las páginas***/
